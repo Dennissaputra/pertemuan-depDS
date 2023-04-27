@@ -1,0 +1,18 @@
+#menambahkan env
+conda create --name flask-ds
+
+#engaktifkan env
+conda activate flask-ds
+
+#keluar dari env
+conda deactivate
+
+#membuat reuiretment
+pip freeze > requirements.txt
+
+#install requitment 
+pip install -r requirements.txt
+
+pip install flask_ngrok
+
+python app.py
